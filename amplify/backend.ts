@@ -6,4 +6,4 @@ const backend = defineBackend({
 });
 
 delete backend.resources.auth.resources.cfnResources.cfnUserPool.usernameAttributes;
-delete backend.resources.auth.resources.cfnResources.cfnIdentityPoolRoleAttachment.roleMappings;
+// delete backend.resources.auth.resources.cfnResources.cfnIdentityPoolRoleAttachment.roleMappings;
