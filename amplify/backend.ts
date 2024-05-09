@@ -6,7 +6,7 @@ const backend = defineBackend({
 });
 
 
-backend.resources.auth.resources.cfnResources.cfnUserPool.overrideLogicalId('UserPool');
+backend.auth.resources.cfnResources.cfnUserPool.overrideLogicalId('UserPool');
 
-delete backend.resources.auth.resources.cfnResources.cfnUserPool.usernameAttributes;
+delete backend.auth.resources.cfnResources.cfnUserPool.usernameAttributes;
 // delete backend.resources.auth.resources.cfnResources.cfnIdentityPoolRoleAttachment.roleMappings;
